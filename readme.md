@@ -1,6 +1,6 @@
 # Cosmos DB Firewall Updater
 
-"Cosmos DB Firewall Updater" is a small utility which updates [IP firewall rules of Azure Cosmos DB account](https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-configure-firewall) based on [servce tags](https://docs.microsoft.com/en-us/azure/virtual-network/service-tags-overview). This is useful when you would like to restrict access to your Cosmos DB database from a specific Azure services in a specific Azure regions.
+"Cosmos DB Firewall Updater" is a small utility which updates [IP firewall rules of Azure Cosmos DB account](https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-configure-firewall) based on [servce tags](https://docs.microsoft.com/en-us/azure/virtual-network/service-tags-overview). This is useful when you would like to restrict access to your Cosmos DB database from specific Azure services in specific Azure regions.
 
 You can specify a list of servce tags. "Cosmos DB Firewall Updater" periodically (once per day) updates IP firewall rules with a list of IP addresses (or IP address prefixes) generated from the servce tags.
 
