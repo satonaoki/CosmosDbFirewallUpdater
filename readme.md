@@ -45,7 +45,7 @@ You can specify a list of servce tags. "Cosmos DB Firewall Updater" periodically
     | SubscriptionId | ID of Azure subscription | 326b86f3-0ec3-41f7-b058-623b4bc0253f | |
     | CosmosDbResourceGroup | Resoruce group name of Cosnmos DB account | myrg | |
     | CosmosDbAccount | Cosnmos DB account name | mycosmosdb | |
-    | AllowedServiceTags | List of service tags | AzureConnectors.JapanEast,AzureConnectors.JapanWest | Commma-separated list (without spaces) or empty |
+    | AllowedServiceTags | List of [service tags](https://docs.microsoft.com/en-us/azure/virtual-network/service-tags-overview) | AzureConnectors.JapanEast,AzureConnectors.JapanWest | Commma-separated list (without spaces) or empty. See [this site](https://azservicetags.azurewebsites.net/servicetag). |
     | AzurePortalIpAddresses | List of Azure Portal IP addresses | 104.42.195.92,40.76.54.131,52.176.6.30,52.169.50.45,52.187.184.26 | Commma-separated list (without spaces) taken from [this table](https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-configure-firewall#allow-requests-from-the-azure-portal) or empty |
     | AdditionalIpAddresses | List of additonal IP addresses | 1.1.1.1,2.2.2.2,3.3.3.3 | Commma-separated list (without spaces) or empty |
 
