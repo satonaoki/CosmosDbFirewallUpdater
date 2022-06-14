@@ -66,4 +66,4 @@ You can specify a list of servce tags. "Cosmos DB Firewall Updater" periodically
 
 1. After the status is back to "Online", verify the IP firewall rules.
 
-    ![Check the status](images/13.png)
+    ![Check the status](images/14.png)
